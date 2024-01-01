@@ -1,0 +1,7 @@
+all_data
+clip_ckpts
+release_ckpts
+logs
+
+*.pyc
+wandb

@@ -1,0 +1,31 @@
+---
+experiment:
+  name: caila/cgqa/release-large  
+  data_dir: cgqa
+  dataset: cgqa
+  splitname: compositional-split-natural
+model_params:
+  model: CAILA
+  train_only: true
+  mixup_ratio: 0.00
+  concept_shift_prob: 0.1
+  img_dropout: 0.5
+  fusion_start_layer: 12
+training:
+  batch_size: 16
+  eval_val_every: 1
+  load: 
+  lr: 1.0e-05
+  wd: 5.0e-05
+  lrg: 5.0e-6
+  margin: 0.5
+  max_epochs: 20
+  norm_family: clip
+  save_every: 10000
+  test_batch_size: 32
+  test_set: val
+  topk: 1
+  workers: 8
+  reduction_factor: 4
+  clip_config: clip-vit-large-patch14
+
