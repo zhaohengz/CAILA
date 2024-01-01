@@ -83,8 +83,6 @@ where `CONFIG_FILE` is the path to the config file. We provide the config files 
 torchrun --nproc_per_node=$N_GPU train.py --config configs/caila/mit.yml
 ```
 
-Code will be released soon.
-
 # Citing CAILA
 If you find CAILA useful in your research, please consider citing:
 ```
