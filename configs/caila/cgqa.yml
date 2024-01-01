@@ -26,5 +26,4 @@ training:
   topk: 1
   workers: 8
   reduction_factor: 4
-  # clip_config: clip-vit-large-patch14
 
