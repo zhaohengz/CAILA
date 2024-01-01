@@ -22,7 +22,7 @@ We build our model based on `Python 3.8` and `PyTorch 1.13`. To prepare the envi
 	pip install -r requirements.txt
 	```
 ## Datasets
-For `MIT-States`, `C-GQA` and `UT-Zappos`, please run the following script to download the datasets to the directory you desire 1(`DATA_ROOT` in our example):
+For `MIT-States`, `C-GQA` and `UT-Zappos`, please run the following script to download the datasets to the directory you desire (`DATA_ROOT` in our example):
 ```
 bash ./utils/download_data.sh DATA_ROOT
 ```
