@@ -45,6 +45,8 @@ DATA_ROOT/
 │   ├── compositional-split-natural/
 ```
 After preparing the data, set the `DATA_FOLDER` variable in `flags.py` to your data path.
+
+If you encounter any `FileNotFoundError` regarding the split files, please find them here: [Link](https://drive.google.com/file/d/1q7G7yYAvCE9j9fWVGpEwJwtJjOVL97Xf/view?usp=drive_link).
 ## Model Zoo
 
 | Dataset | AUC (Base/Large) | Download |
